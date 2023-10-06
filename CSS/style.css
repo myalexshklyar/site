@@ -1,0 +1,187 @@
+*,:after,:before{
+box-sizing:border-box
+}
+html{
+font-size:100%
+}
+body{
+margin:0;padding:20px;
+font-family:Arial,Helvetica,sans-serif;
+font-size:1rem;color:#fff}
+.wrapper{margin:auto;max-width:75rem}
+aside,footer,header,main,section
+{display:block;margin:0;padding:1.25rem;border:1px solid #000;color:#fff}
+main{background:#000}
+#.header{background:#03a9f4}
+
+.hero{
+background:url(../Image/bg_hero1.jpg) 0 0 repeat;
+}
+
+@media screen and (min-width:320px){
+.flex-container{
+display:flex}}
+.content{flex:1;
+background:url(../Image/pchelka_fon.webp) 0 0 repeat;
+}
+#.sidebar{flex:0 1 470px;background:#03a9f4}
+
+.sidebar{flex:0 1 470px;
+background:url(../Image/bg_header3.jpg) 0 0 repeat;
+}
+
+.footer,.sidebar{border:1px solid #000}
+
+.footer{
+background: url(../Image/bg_header2.jpg) 0 0 repeat;
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+background: url(../Image/bg_header3.jpg) 0 0 repeat; 
+}
+
+.header .logo {
+ margin-right: auto;
+}
+
+.header .logo img {
+  height: 150px; /* adjust the height as needed */
+}
+.shadow-3  {
+box-shadow: 0 0 0 1px #ccc,
+0 -20px 15px -5px #FBC16A,
+20px 0 15px -5px #6BFA76,
+0 20px 15px -5px #6BA5FA,
+-20px 0 15px -5px #F4F171;
+}
+
+
+h2 {
+text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgba(179, 147, 211, 0.25);
+}
+
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 30%;
+    max-width: 30%;
+}
+.fire {
+    color: #fff;
+    text-shadow:
+             0 0 2px #eee,
+             0 0 4px #fff,
+             0 -2px 4px #ff3,
+             2px -4px 6px #fd3,
+             -2px -6px 11px #f80,
+             2px -8px 18px #f20;
+    font-size: 50px;
+}
+a {
+  display:inline-block;
+  text-decoration:none;
+  border-bottom: 4px solid blue;
+  }
+
+/* 
+nav ul li {
+display: inline-block;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+nav ul li:first-child {
+  margin-left: 0px;
+}
+
+ */
+
+/* 
+nav ul li {
+display: inline-block;
+  margin-left: 16px;
+  text-transform: uppercase;
+margin-right:30px;
+
+}
+nav ul li:first-child {
+  margin-left: 0px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+font-size: 24px;
+}
+ */
+ 
+ 
+ .zornet_ru_rasungan ul {
+  font: bold 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+.zornet_ru_rasungan li {
+  display: inline-block;
+  margin: 0 35px; /*расстояние между пунктами по ширине*/
+}
+/* 
+	#6495ED
+#426b8c
+
+ */
+ 
+/*
+	#FF00FF - маджента
+ #FFFF00 - желтый
+ #2a3c4a -был!
+ 
+ */ 
+ 
+.zornet_ru_rasungan a {
+  background: #395870;
+  background: linear-gradient(#6495ED, #FF00FF);
+  border-right: 1px solid rgba(10, 10, 10, 0.3);
+  color: #efeded;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+/*
+
+	#6B8E23 темно зеленый 
+#98FB98 - светло зеленый
+#FFFF00 - желтый
+#2f4556 -был!
+
+ */
+.zornet_ru_rasungan a:hover {
+  background: #6B8E23;
+  box-shadow: inset 0 0 10px 1px rgba(16, 15, 15, 0.26);
+}
+.zornet_ru_rasungan li:first-child a {
+  border-radius: 4px 0 0 4px;
+}
+.zornet_ru_rasungan li:last-child a {
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+
+#.A { color: #FF1493; }
+
+.A {text-decoration: underline; }
